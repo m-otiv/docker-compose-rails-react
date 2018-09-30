@@ -6,3 +6,8 @@
 
 ![docker-compose >=1.8.0 ](https://badgen.net/badge/docker-compose/>=1.8/409be6?icon=docker)
 
+### Install npm dependency
+
+```bash
+docker-compose run node npm install --only=production
+```
