@@ -11,3 +11,9 @@
 ```bash
 docker-compose run node npm install --only=production
 ```
+
+The project start-up doesn't create a DB. For tmp I lunch follow command:
+
+```bash
+docker-compose exec app rake db:create
+```
